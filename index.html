@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LITTLE FLOWER SCHOOL -My beginning</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css ">
+</head>
+<body>
+    <body style="background-color:aliceblue;">
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/sim.jpeg"></a>
+                      <div class="nav-links" id="navLinks">
+                        <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT ME</a></li>
+                    <li><a href="#">ACHEIVEMENTS</a></li>
+                    <li><a href="#">BLOGS</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"onclick="showmenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>LITTLE FLOWER SCHOOL</h1>
+            <p> I owe my entire journey to my ALMA MATER.<br>This will let you know more about my overall personality .</p>
+       <a href="" class="hero-btn">Navigate to know more</a>
+     </div>  
+    </section>
+    <!-------ABOUT ME-->
+    <section class="aboutme">
+        <h1>SIMRANJEET KAUR</h1>
+        <P>I am Simranjeet Kaur,an undergraduate pursuing B.E. in  Computer Science Engineering from MKSSS CUMMINS COLLEGE OF ENGINEERING FOR WOMEN,NAGPUR.<br>I am an ex-student of LITTLE FLOWER SCHOOL AND HAVE GRADUATED. </P>
+        <div class="row">
+            <div class="aboutme-col">
+                <h3>SCHOOL</h3>
+                <P>In school I was only inclined to dance and studies.</P>
+                </div>
+                <div class="aboutme-col">
+                    <h3>COLLEGE</h3>
+                    <P>Not too many experiences but yet to deliver many skills.</P>
+                    </div>
+        </div>
+    </section>
+    <!------ACHEIVEMENTS-->
+    <section class="acheivements">
+        <h1>ACHEIVEMENTS</h1>
+        <p>Everything is not pre-decided.<br>We need to struggle and catch up to what we want to acheive and not hang around our failures .</p>
+        <div class="row">
+           <div class="acheivements-col">
+          <img src="images/img4.jpg" width="250" height="300"> 
+          <div class="layer">
+              <h3>AIM</h3>
+          </div>
+          </div>
+          <div class="acheivements-col">
+            <img src="images/img2.jpg" width="250" height="300"> 
+            <div class="layer">
+                <h3>STRUGGLE</h3>
+            </div>
+            </div>
+            <div class="acheivements-col">
+                <img src="images/img1.jpg" width="250" height="300"> 
+                <div class="layer">
+                    <h3>DETERMINATION</h3>
+                </div>
+                </div>
+        </div>
+    </section>
+<!----------BLOGS-->
+<section class="blogs">
+    <h1>BLOGS</h1>
+    <p>Blogs are the expressive minds of different souls which actually helps oneself grow.</p>
+    <div class="blogs-col">
+       <img src="images/img5.jfif" width="center" height="300"   >
+    <div class="layout">
+        <h4> <a href="https://medium.com/@simranjeet.kaur_29449    ">MY BLOGS</a></h4>
+    </div>
+ </div>
+</section>
+<!----------CONTACT-->
+
+
+
+
+
+
+<!---------Javascript for Toggle Menu-------->
+    <script>
+        var navLinks= document.getElementById(navLinks);
+        function showmenu(){
+            navLinks.style.right="0";
+        }
+        function hidemenu(){
+            navLinks.style.right="-200px";
+        }
+        }
+    </script>  
+</body>
+</html>
